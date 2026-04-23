@@ -1,0 +1,47 @@
+@media (max-width: 576px) {
+  .blog-title {
+    font-size: 1rem;
+  }
+
+  .footer p,
+  .footer .credits {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .row.align-items-center {
+    flex-direction: column-reverse !important;
+  }
+
+  .book-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .book-description {
+    font-size: 1rem;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .read-more-btn {
+    display: block;
+    margin: 10px auto 0 auto;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+  }
+
+  .book-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .contact .col-md-6{
+    margin-bottom: 1rem;
+  }
+
+}
